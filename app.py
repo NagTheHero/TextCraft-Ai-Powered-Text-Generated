@@ -3,10 +3,10 @@ from hugchat import hugchat
 from hugchat.login import Login # Import Hugging Face login module
 
 # App title
-st.set_page_config(page_title="🤗💬 TextCraft")
+st.set_page_config(page_title="TextCraft")
 
 # Page title
-st.title('🤗💬 TextCraft')
+st.title('TextCraft')
 
 # Check if Hugging Face credentials are provided as secrets
 # If not, prompt user to enter them

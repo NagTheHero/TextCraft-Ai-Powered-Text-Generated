@@ -17,8 +17,8 @@ if ('EMAIL' in st.secrets) and ('PASS' in st.secrets):
         hf_pass = st.secrets['PASS']
 else:
         # Prompt for credentials
-        hf_email = st.text_input('Enter E-mail:', type='password')
-        hf_pass = st.text_input('Enter password:', type='password')
+        hf_email = 'nagendra322003@gmail.com'
+        hf_pass = 'Huggingface.co1'
         #if not (hf_email and hf_pass):
             #st.warning('Please enter your credentials!', icon='⚠️')
         #else:
